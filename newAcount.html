@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css" type="text/css">
+    <link rel ="icon" href = "images/netflix.png" type = "image/x-icon">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="validate2.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <img src="images/netflix-logo.png" alt="netflix-logo" width="170px" height="50px" class="main_logo">
+    </header>
+    <div class="lay">
+        <img src = "images/netflix-background-5.jpg" alt = "netflix background" id="netflix-background">
+        <div class="background-shadow" id="background-shadow"></div> 
+        <form  action="home.html" class="loginbox" class="signup">
+            <img src="images/avatar.png" class="avatar">
+            <div class="textbox">
+                <input type="text" placeholder="User Name" name="UserName" value="" id="username">
+            </div>
+            <div class="textbox">
+                <input id="email" type="email" placeholder="Email" name="email" value="">
+            </div>
+            <div class="textbox">
+                <input type="password" placeholder="Password" name="password" value="">
+            </div>
+            <div class="textbox">
+                <input type="password" placeholder="Confirem Password" name="confirm_password" value="" id="password">
+            </div>
+            <div class="textbox">
+                <input type="text" placeholder="Phone Number" name="PhoneNumber" value="">
+            </div>
+            <div class="textbox">
+                <input type="date" placeholder="Birthdate" name="Birthdate" value="">
+            </div>
+            <div class="check-gender"> 
+                <div>Gender </div>
+                <label><input type="radio" name="gender" value="male" > Male<br></label>
+                <label><input type="radio" name="gender" value="female"> Female<br></label>
+            </div>
+            <a href="home.html"><input class="btn" id="btn1" type="submit" name="" value="Sign Up"></a>
+        </form>
+    </div>
+</body>
+</html>
